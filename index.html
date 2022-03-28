@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>etch-a-sketch</title>
+</head>
+
+<body>
+<header>
+    <h1 class="title">Etch-A-Sketch</h1>
+</header>
+<main>
+    <div id="grid-container"></div>
+    <div class="controls-section">
+        <input id="colorSelector" class="color-selector" type="color" value="#000000">
+        <button id="blackbtn" class="btn">Black</button>
+        <button id="rainbowbtn"class="btn">Rainbow mode</button>
+        <button id="clearbtn" class="btn">Clear</button>
+        <div id="sliderValue" class="slider-value">16 x 16</div>
+        <input id="sizeSlider" class="slider" type="range" min="16" max="64" value="16">
+                
+    </div>
+
+    <div id="container">
+    </div>
+
+
+</main>
+
+<footer class="footer">
+    <p>Yo
+        <a href="https://github.com/sbenerofe/etch-a-sketch" target="_blank" <i class="fab fa-github"></i></a>
+    </p>
+</footer>
+</body>  
+</html>
+<script src="script.js"></script>
