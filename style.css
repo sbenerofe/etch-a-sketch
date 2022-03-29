@@ -1,123 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* HEADER */
 .title {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 4rem;
-    font-family: 'Permanent Marker', cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-family: "Permanent Marker", cursive;
 }
 
 /* MAIN */
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
 }
-
 
 /* STYLES FOR GRID */
 #grid-container {
-    margin-left: 10rem;
-    border: 3px solid black;
-    box-shadow: 10px 5px 5px black;
-    width: 500px;
-    height: 500px;
-    max-width: 500px;
-    max-height: 500px;
-    display: inline-grid;
-    grid-template-rows: repeat(16, 2fr);
-    grid-template-columns: repeat(16, 2fr);
+  margin-left: 10rem;
+  border: 3px solid black;
+  box-shadow: 10px 5px 5px black;
+  width: 500px;
+  height: 500px;
+  max-width: 500px;
+  max-height: 500px;
+  display: inline-grid;
+  grid-template-rows: repeat(16, 2fr);
+  grid-template-columns: repeat(16, 2fr);
 }
 
 .grid-item {
-    background-color: white;
-    border: 1px solid black;
+  background-color: white;
+  border: 1px solid black;
 }
 
 :root {
-    --grid-rows: 1;
-    --grid-cols: 1;
+  --grid-rows: 1;
+  --grid-cols: 1;
 }
-
-
 
 /* Settings Section layout*/
 .controls-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    margin-left: 2rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 4px solid black;
-    box-shadow: 10px 5px 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-left: 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 4px solid black;
+  box-shadow: 10px 5px 5px black;
 }
 
 button {
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
 }
 
 .btn:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 0 0 2px 1px;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 2px 1px;
 }
 
-
 .color-selector {
-    height: 50px;
-    width: 50px;
-    background-color: white;
+  height: 50px;
+  width: 50px;
+  background-color: white;
 }
 
 .color-selector:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 0 0 2px 1px;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 2px 1px;
 }
 
 .slider-value {
-    text-align: center;
-    margin-bottom: -20px;
+  text-align: center;
+  margin-bottom: -20px;
 }
 
 .slider:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* footer and signature styling */
 .footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    text-align: center;
-    margin-top: 9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  margin-top: 9rem;
 }
 
 .fa-github {
-    color: orange;
-    font-size: 24px;
-    transition: transform 0.3s ease-in-out;
+  color: orange;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
 }
