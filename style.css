@@ -11,6 +11,10 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 4rem;
+<<<<<<< HEAD
+=======
+  font-family: "Permanent Marker", cursive;
+>>>>>>> f7d40283ccd80e1b4423a0f165bf170057792c4d
 }
 
 /* MAIN */
@@ -27,7 +31,11 @@ body {
 /* STYLES FOR GRID */
 #grid-container {
   margin-left: 10rem;
+<<<<<<< HEAD
   border: 4px solid red;
+=======
+  border: 3px solid black;
+>>>>>>> f7d40283ccd80e1b4423a0f165bf170057792c4d
   box-shadow: 10px 5px 5px black;
   width: 500px;
   height: 500px;
